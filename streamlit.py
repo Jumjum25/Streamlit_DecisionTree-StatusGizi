@@ -35,7 +35,7 @@ if uploaded_file is not None:
     features = st.multiselect(
         "Fitur", 
         data.columns.tolist(),  
-        default=['umur', 'berat_badan', 'tinggi_badan', 'zscore_bb_u']  
+        default=['umur', 'berat_badan', 'tinggi_badan', 'zscore_tb_u', 'zscore_bb_tb', 'zscore_bb_u']  
     )
     
     # Memilih target (label status gizi)
